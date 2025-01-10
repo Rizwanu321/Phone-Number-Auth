@@ -1,0 +1,239 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px 60px 30px;
+}
+
+.register-form-container {
+    margin-top: 12px;
+    margin-left: 60px;
+    width: 640px;
+}
+
+.signup-txt {
+    color: var(--T, #313131);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.signup-desc {
+    color: var(--T, #313131);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.75;
+}
+
+.form-signup-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.first-last-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.firstname-container,
+.lastname-container {
+    flex: 1;
+    height: 56px;
+    position: relative;
+}
+
+.email-container {
+    width: 518px;
+    height: 56px;
+    position: relative;
+    margin-top: 35px;
+}
+
+.signup-input-field {
+    border-radius: 4px;
+    margin-top: 12px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid #1C1B1F;
+    outline: none;
+    height: 56px;
+}
+
+.first-input-field,
+.last-input-field {
+    width: 95%;
+}
+
+.email-input-field {
+    width: 516px;
+}
+
+.r-placeholder {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    line-height: normal;
+    background-color: #ffffff;
+    padding: 0px 5px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1C1B1F;
+}
+
+.btn-container {
+    width: 100%;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.checkbox-field {
+    width: 20px;
+    height: 20px;
+    margin-left: -0.5px;
+}
+
+.checkbox-txt {
+    color: var(--T, #313131);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5px;
+}
+
+.box-span {
+    color: #FF8682;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.btn-container {
+    margin-top: 20px;
+}
+
+.btn-create {
+    display: flex;
+    height: 48px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 4px;
+    background: var(--P, #515DEF);
+    color: #F3F3F3;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 100%;
+    border: none;
+}
+
+.login-text {
+    color: var(--T, #313131);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.login-link {
+    color: #FF8682;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.error-text {
+    color: #ff6f6f;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
+    padding-left: 5px;
+    line-height: 1.4;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.err {
+    margin-top: -10px;
+}
+
+.error-toast {
+    color: #fff;
+    background-color: #ff6f6f;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .register-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    .register-image-section {
+        display: none;
+    }
+
+    .register-form-container {
+        margin: 0;
+        width: 100%;
+        padding-right: 15px;
+    }
+
+    .email-container,
+    .firstname-container,
+    .lastname-container {
+        width: 100%;
+    }
+
+    .signup-input-field {
+        width: 100%;
+    }
+
+    .email-input-field {
+        width: 100%;
+    }
+}

@@ -1,0 +1,197 @@
+.login-container {
+    padding: 60px 70px;
+    display: flex;
+}
+
+.logo-img {
+    height: 100px;
+    width: 100px;
+}
+
+.login-form {
+    margin-top: 60px;
+    margin-left: 35px;
+}
+
+.login-txt {
+    color: var(--T, #313131);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.login-desc {
+    color: #313131;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.75;
+}
+
+.form-container {
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input-field {
+    height: 56px;
+    border-radius: 4px;
+    margin-top: 12px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid #1C1B1F;
+    outline: none;
+}
+
+.placeholder {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    background-color: #ffffff;
+    padding: 0px 5px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1C1B1F;
+}
+
+.btn-get-otp {
+    display: flex;
+    height: 48px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 4px;
+    background: #515DEF;
+    color: #F3F3F3;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    margin-top: 30px;
+}
+
+.signup-text {
+    color: var(--T, #313131);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.signup-link {
+    color: #FF8682;
+    font-weight: 600;
+}
+
+.image-section {
+    margin-left: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.robot-check {
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 8px;
+    background: #f5f5f5;
+}
+
+.robot-check p {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.recaptcha-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.network-status-banner {
+    text-align: center;
+    width: 100%;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-field {
+    width: 97%;
+}
+
+.error-text {
+    color: #d9534f;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-left: 4px;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    border: 1px solid #f5c2c7;
+    border-radius: 4px;
+    color: #842029;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .login-container {
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-form-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .login-form {
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .btn-get-otp {
+        font-size: 14px;
+    }
+
+    .image-section {
+        margin: 30px 0 0;
+        text-align: center;
+    }
+
+    .login-image {
+        width: 90%;
+    }
+}
